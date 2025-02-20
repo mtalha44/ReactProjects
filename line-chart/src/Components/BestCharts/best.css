@@ -1,0 +1,35 @@
+/* BestChart1.css */
+.chart-wrapper {
+  min-height: 100vh;
+  background-color: #0e1b2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.section {
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  margin: 0 5px; /* Adjust spacing as needed */
+}
+
+.section-heading {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.section-description {
+  min-height: 30px;
+  font-size: 0.8rem;
+  color: #ccc;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.chart-container {
+  width: 100%;
+  height: 250px; /* Increased height for a taller chart */
+}
